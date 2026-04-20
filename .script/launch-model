@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /workspaces/DogBot/dogbot_ws/model
+gz sim dogbot.sdf

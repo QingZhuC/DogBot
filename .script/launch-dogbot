@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /workspaces/DogBot/dogbot_ws/build
+./main

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [[ ! -d "/workspaces/DogBot/dogbot_ws" ]]; then
+    echo "> ERROR: Workspace not found: /workspaces/DogBot/dogbot_ws"
+    exit 1
+fi
+
+cd "/workspaces/DogBot/dogbot_ws" || exit 1
+
+cmake -B build && make -C build 
